@@ -1,0 +1,177 @@
+.search{
+    width: 100%;
+    max-width: 1200px;
+    height: 42px;
+    margin: 0 auto;
+}
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    border: none;
+    margin-top: 1%;
+}
+.search-container .input-container{
+    width: 40%;
+    display: flex;
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    border-bottom: ridge;
+    margin-right: 1%;
+}
+.search-container .input-container i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 147%;
+}
+.search-container .input-container input{
+    width: 96%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    font-size: 140%;
+    outline: none;
+}
+
+.search-container .btn-container{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkblue;
+    width: 14%;  
+    height: 100%;  
+}
+.search-container .btn-container:hover{
+    background: blue;
+    cursor: pointer;
+}
+.job-container{ 
+    height: 100vw;
+    margin: 2% auto;
+    width: 1220px;
+}
+.job-container-heading{
+    display: flex;
+    width: 100%; 
+    height: 7%;
+    font-size: 160%;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+.job-tile-container{ 
+    width: 100%;
+    display: grid;
+    height: 93%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 24px;
+}
+.job-tile-container .job-tile{ 
+    background: rgb(1, 1, 17);
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.job-tile-container .job-tile:hover{ 
+    transition: all .5s ease;
+    transform: scale(1.05);
+}
+.job-tile .job-tile-head{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    border-radius: 20px; 
+    background: rgb(0, 0, 0);
+}
+.job-tile .job-tile-head .logo{
+    margin-left: 2%; 
+    width: 7%;
+    height: 100%;
+}
+.job-tile .job-tile-head .logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+.job-tile .job-tile-head .dots{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 190%;
+}
+.job-tile .job-tile-head .dots:hover{
+    cursor: pointer;
+}
+
+.job-tile .job-tile-title{
+    width: 100%; 
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    font-size: 134%;
+    cursor: pointer;
+    border-bottom: 5px solid rgb(47, 47, 223);
+}
+.job-tile .job-tile-desc{
+    width: 98%;
+    height: 62%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 100%;
+}
+.job-tile .btns{ 
+    display: flex;
+    justify-content: space-between;
+    height: 13%;
+    margin-bottom: 1%;
+}
+.job-tile .btns .apply{ 
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    height: 100%;
+    margin-left: 5%;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(52, 9, 70);
+    flex: 1;
+    margin-right: 1%;
+}
+.job-tile .btns .message{ 
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    height: 59%;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    margin-right: 5%;
+    height: 100%;
+    background: darkblue;
+    flex: 1;
+    margin-left: 1%;
+}
+.job-tile .btns .message:hover{
+    background: rgb(18, 18, 236);
+    cursor: pointer;
+}
+.job-tile .btns .apply:hover{
+    background: rgb(87, 43, 87);
+    cursor: pointer;
+}
