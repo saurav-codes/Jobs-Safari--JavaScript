@@ -1,3 +1,4 @@
+console.log('working');
 document.onload = dataFlow()
 
 async function fetchData(){
@@ -8,7 +9,7 @@ async function fetchData(){
 
 function showJobs(data){
     let jobContainer= document.querySelector('.job-tile-container')
-    jobHTML= ""
+    let jobHTML= ""
     data.forEach(function (job){
         jobHTML += `
         <div class="job-tile">
