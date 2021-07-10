@@ -1,0 +1,10 @@
+@media screen and (max-width: 930px){
+   .job-tile-container{
+       grid-template-columns: repeat(2,1fr);
+   } 
+}
+@media screen and (max-width: 400px){
+    .job-tile-container{
+        grid-template-columns: repeat(1,1fr);
+    } 
+ }
