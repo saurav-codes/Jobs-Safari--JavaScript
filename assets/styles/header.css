@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-color: #121216;
     color: white;
-    font-family: cursive;
+    font-family: monospace;
 }
 
 header{
@@ -37,5 +37,5 @@ header{
     align-items: center;
 }
 .heading span{
-    font-size: 150%;
+    font-size: 20px;
 }
