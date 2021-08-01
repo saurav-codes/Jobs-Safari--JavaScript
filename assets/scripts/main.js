@@ -20,7 +20,7 @@ function showJobs(data){
                 <div class="job-tile-desc">${job.requirements.content}</div>
                 <div class="btns">
                     <div class="apply">Apply</div>
-                    <div class="message">Message</div>
+                    <div class="message">Details</div>
                 </div>
             </div>
         `
